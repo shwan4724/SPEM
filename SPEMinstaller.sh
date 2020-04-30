@@ -44,7 +44,7 @@ case $yesno in
 		sudo chmod 777 versionhtml
 
 		sudo touch version
-		sudo chmod 777 version
+		sudo chmod 777 version;;
 
 
         
