@@ -15,7 +15,7 @@ case $yesno in
 		sudo 
 
 		sudo mkdir SPAU
-        sudo chmod 755 SPAU
+        sudo chmod 755 SPAU.sh
         cd ./SPAU
         
         sudo wget -O SPAU.sh https://github.com/shwan4724/SPEM/blob/master/SPAU.sh?raw=true
