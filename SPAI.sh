@@ -20,8 +20,3 @@ cd ./papermc
 
 sudo wget -O paper-"$version".jar http://papermc.io/api/v1/paper/1.15.2/"$version"/download
 
-java -Xmx1024M -Xms1024M -jar ./paper-"$version".jar -nogui
-
-sudo printf "\b\b\b\b\btrue" >> ./eula.txt
-
-java 
