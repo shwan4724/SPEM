@@ -9,7 +9,7 @@ case $yesno in
         sudo mkdir SPEM
 		cd ./SPEM
 		
-		sudo wget -O SPEM.sh https://github.com/shwan4724/SPEM/blob/master/SPEM.sh
+		sudo wget -O SPEM.sh https://raw.githubusercontent.com/shwan4724/SPEM/master/SPEM.sh?token=APEL5BTHYHVBO77T6E7L37S6VK4M4
 		sudo chmod 755 SPEM.sh
 		
 		sudo 
@@ -18,7 +18,7 @@ case $yesno in
         sudo chmod 755 SPAU
         cd ./SPAU
         
-        sudo wget -O SPAU.sh https://github.com/shwan4724/SPEM/blob/master/SPAU.sh
+        sudo wget -O SPAU.sh https://raw.githubusercontent.com/shwan4724/SPEM/master/SPAU.sh?token=APEL5BR7BRBXXANOXZH2GFS6VK4OS
         
         sudo touch paperpathraw
         sudo chmod 777 paperpathraw
@@ -37,7 +37,7 @@ case $yesno in
 		sudo mkdir SPAI
 		cd ./SPAI
 
-		sudo wget -O SPAI.sh https://github.com/shwan4724/SPEM/blob/master/SPAI.sh
+		sudo wget -O SPAI.sh https://raw.githubusercontent.com/shwan4724/SPEM/master/SPAI.sh?token=APEL5BWTL3UVWPI4IYDT2C26VK4QW
 		sudo chmod 755 SPAI.sh
 
 		sudo touch versionhtml
