@@ -10,8 +10,10 @@ read pselect [1/2]
 while :; do
 	case $pselect in
 		1)
+			./SPAI/SPAI.sh
 			break;;
 		2)
+			./SPAU/SPAU.sh
 			break;;
 		*)
 			
@@ -21,4 +23,3 @@ while :; do
 	read pselect
 done
 
-./"$pselect"/"$pselect".sh
