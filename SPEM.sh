@@ -8,18 +8,18 @@ echo "2.SPAU(Shwan's Papermc Auto Updater)"
 echo "choose program you want to run"
 read pselect [1/2]
 while :; do
-	case $pselect in
-		1)
-			./SPAI/SPAI.sh
-			break;;
-		2)
-			./SPAU/SPAU.sh
-			break;;
-		*)
-			
-	esac
-	echo "please type 1 or 2"
-	echo "choose program you want to run"
-	read pselect
+    case $pselect in
+        1)
+            ./SPAI/SPAI.sh
+            break;;
+        2)
+            ./SPAU/SPAU.sh
+            break;;
+        *)
+            
+    esac
+    echo "please type 1 or 2"
+    echo "choose program you want to run"
+    read pselect
 done
 
