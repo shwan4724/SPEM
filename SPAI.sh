@@ -7,16 +7,16 @@ echo "Are you agree the EULA of PaperMC?[y/n]"
 read yesno
 
 while :; do
-	case $yesno in
-		y)
-			break;;
-		n)
-			echo "bye"
-			exit 0;;
-		*)
-			echo "please type y or n"
-			read yesno;;
-	esac
+    case $yesno in
+        y)
+            break;;
+        n)
+            echo "bye"
+            exit 0;;
+        *)
+            echo "please type y or n"
+            read yesno;;
+    esac
 done
 
 echo "Update start!"
@@ -28,10 +28,10 @@ echo "where do you want to install PaperMC?"
 read paperpath
 
 while :; do
-	if [-d $paperpath]
-	then
-		break
-	fi
+    if [-d $paperpath]
+    then
+        break
+    fi
 done
 
 cd "$paperpath"
