@@ -42,7 +42,7 @@ case $yesno in
     y)
         sudo wget -O "$paperpath4wget"paper-"$version".jar https://papermc.io/api/v1/paper/1.15.2/"$version"/download
         sudo chown $user:$user "$paperpath4wget"/paper-"$version".jar
-	sudo chmod 777 "$paperpath4wget"paper-"$version".jar
+     sudo chmod 777 "$paperpath4wget"paper-"$version".jar
         sudo rm -rf $paperpath
         sudo printf "#! /bin/bash\njava -Xmx2048M -Xms1024M -jar paper-"$version".jar -nogui" > "$paperpath4wget"start.sh
         echo "update complete";;
@@ -58,7 +58,7 @@ case $yesno in
             n)
                 while :; do
                 echo "So... you want to install version "$verison". Right?[y/n]"
-		read yesno
+          read yesno
                     case $yesno in
                         y)
                             break;;
@@ -73,7 +73,7 @@ case $yesno in
                 done
                 sudo wget -O "$paperpath4wget"paper-"$version".jar https://papermc.io/api/v1/paper/1.15.2/"$version"/downloads
                 sudo chown $user:$user "$paperpath4wget"paper-"$version".jar
-		sudo chmod 777 "$paperpath4wget"paper-"$version".jar
+          sudo chmod 777 "$paperpath4wget"paper-"$version".jar
                 sudo rm -rf $paperpath
                 sudo printf "#! /bin/bash\njava -Xmx2048M -Xms1024M -jar paper-"$version".jar -nogui" > "$paperpath4wget"start.sh
                 echo "update complete";;
