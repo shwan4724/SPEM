@@ -7,14 +7,14 @@ read yesno
 case $yesno in
     y)
         sudo mkdir SPEM
-		cd ./SPEM
-		
-		sudo wget -O SPEM.sh https://github.com/shwan4724/SPEM/blob/master/SPEM.sh?raw=true
-		sudo chmod 755 SPEM.sh
-		
-		sudo 
+        cd ./SPEM
+        
+        sudo wget -O SPEM.sh https://github.com/shwan4724/SPEM/blob/master/SPEM.sh?raw=true
+        sudo chmod 755 SPEM.sh
+        
+        sudo 
 
-		sudo mkdir SPAU
+        sudo mkdir SPAU
         cd ./SPAU
         
         sudo wget -O SPAU.sh https://github.com/shwan4724/SPEM/blob/master/SPAU.sh?raw=true
@@ -32,19 +32,19 @@ case $yesno in
         sudo touch version
         sudo chmod 777 version
 
-		cd ..
-		
-		sudo mkdir SPAI
-		cd ./SPAI
+        cd ..
+        
+        sudo mkdir SPAI
+        cd ./SPAI
 
-		sudo wget -O SPAI.sh https://github.com/shwan4724/SPEM/blob/master/SPAI.sh?raw=true
-		sudo chmod 755 SPAI.sh
+        sudo wget -O SPAI.sh https://github.com/shwan4724/SPEM/blob/master/SPAI.sh?raw=true
+        sudo chmod 755 SPAI.sh
 
-		sudo touch versionhtml
-		sudo chmod 777 versionhtml
+        sudo touch versionhtml
+        sudo chmod 777 versionhtml
 
-		sudo touch version
-		sudo chmod 777 version;;
+        sudo touch version
+        sudo chmod 777 version;;
 
 
         
