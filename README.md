@@ -1,10 +1,10 @@
 # SPEM
 
 ## What is SPEM stands for?
-- Shwan's
-- Papermc
-- Elastic
-- Manager
+- **S**hwan's
+- **P**apermc
+- **E**lastic
+- **M**anager
 
 ## Feature
 - SPEM is the program that can use to manage PaperMC.
